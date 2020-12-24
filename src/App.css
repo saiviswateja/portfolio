@@ -40,3 +40,23 @@
   margin-bottom: 9%;
 }
 
+.education{
+  margin-top: 6%;
+}
+
+.edCard{
+  margin-top: 3%;
+  background-color: #172A45;
+  border: 1px solid #64FFDA;
+  height: 33vh;
+  display: flex;
+  justify-content: space-around;
+}
+.eduCategory{
+  padding-top: 5%;
+  font-weight: 500;
+  font-size: large;
+}
+.edCard:last-child{
+  padding-bottom: 3%;
+}

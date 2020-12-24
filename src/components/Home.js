@@ -36,6 +36,41 @@ function Home() {
                         </div>
                         </div>
                     </div>
+                    <div className="container education">
+                        <div className="row">
+                            <h2 className="headingcolor2 d-flex justify-content-center">Education</h2>
+                            <hr className="headingcolor2"></hr>
+                        </div>
+                        <div className="row">
+                            <div className="col-md">
+                                <div className="card edCard">
+                                    <div className="headingcolor1 d-flex justify-content-center eduCategory"><b>Bachelor of Technology</b></div>
+                                    <div className="headingcolor2 d-flex justify-content-center">G. Pulla Reddy Engineering College</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">Computer Science and Engineering</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">2016 - 2020</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">CGPA: 8.43</div>
+                                </div>
+                            </div>
+                            <div className="col-md">
+                                <div className="card edCard">
+                                    <div className="headingcolor1 d-flex justify-content-center eduCategory"><b>INTERMEDIATE</b></div>
+                                    <div className="headingcolor2 d-flex justify-content-center">Narayana Junior College</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">Maths, Physics & Chemistry</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">2014 - 2016</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">Marks: 972</div>
+                                </div>
+                            </div>
+                            <div className="col-md">
+                                <div className="card edCard">
+                                    <div className="headingcolor1 d-flex justify-content-center eduCategory"><b>HIGH SCHOOL</b></div>
+                                    <div className="headingcolor2 d-flex justify-content-center">Montessori English Medium School</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">2009 - 2014</div>
+                                    <div className="headingcolor3 d-flex justify-content-center">CGPA: 9.70</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
         </div>
     )
 }
