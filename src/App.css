@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.headingcolor1{
+  color: #64FFDA;
+  font-weight: 300;
+}
+.headingcolor2{
+  color: #CCD6F6;
+}
+.headingcolor3{
+  color: #8892B0;
+}
+.headingcolor4{
+  color: #838DAA;
+  font-weight: 400;
+}
+.headingSize1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.headerDesc{
+  width: 50%;
+}
+.profile_pic{
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 3%;
+}
+.getInTouch{
+  background-color: rgb(10, 25, 47);
+  font-size: large;
+  padding: 1% 3% 1% 3%;
+  color: #64FFDA;
+  border:1px solid #64FFDA;
+  border-radius: 10px;
+  margin-top: 2%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.headingContainer{
+  margin-top: 9%;
+  margin-bottom: 9%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
