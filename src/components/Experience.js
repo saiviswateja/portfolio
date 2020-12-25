@@ -1,13 +1,13 @@
 import React,{useEffect, useState} from 'react';
 import DateRangeIcon from '@material-ui/icons/DateRange';
-import experienceData from '../experience.json';
+import data from '../data.json';
 
 function Experience() {
     const [selectExp,setSelectExp] = useState("vl");
     const [exp,setExp] = useState("vl");
     const [currentExp,setCurrentExp] = useState({"workingpoints":[]});
     useEffect(()=>{
-        var experiences = experienceData.experiences;
+        var experiences = data.experiences;
         console.log(exp);
         console.log("before "+experiences);
         var tempExperience = experiences.filter((experience)=>{
@@ -24,7 +24,7 @@ function Experience() {
     return (
         <div className="container">
                         <div className="row">
-                            <h2 className="headingcolor2 d-flex justify-content-center">Experience</h2>
+                            <h2 className="headingcolor2 d-flex justify-content-center">Where I've Worked</h2>
                             <hr className="headingcolor2"></hr>
                         </div>
                         <div className="container">

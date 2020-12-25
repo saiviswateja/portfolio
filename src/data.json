@@ -1,0 +1,90 @@
+{
+    "experiences":[
+        {
+            "_id":"vlintern",
+            "role":"Front-End Developer Intern",
+            "company":"@Valuelabs",
+            "duration":"December 2019 - March 2020",
+            "workingpoints":[
+                "Trained on React JS and IOS App Development",
+                "Introduced to RESTful web services and a tool called Microsoft Flow",
+                "Build a web application using IMDb API using React JS" 
+            ]
+        },
+        {
+            "_id":"vl",
+            "role":"Software Engineer",
+            "company":"@Valuelabs",
+            "duration":"July 2020 - Present",
+            "workingpoints":[
+                "Worked as Junior Developer for one of the client where we successfully integrated the vendor API's using a tool called Microsoft Flow",
+                "Part of a team for creating a proof of concept for a internal project using React JS as front-end and Java Spring-Boot for backend"   
+                ]
+        },
+        {
+            "_id":"tpcoordinator",
+            "role":"Student Coordinator",
+            "company":"@G.P.R.E.C",
+            "duration":"December 2018 - March 2020",
+            "workingpoints":[
+                "Chosen from numerous candidates for this position, hired based on personality, communication and interpersonal skills",
+                "Acted as a bridge between students and companies",
+                "Organised a college fest Brain Wreck for juniors",
+                "Acted as Student Coordinator for Coders' Club in our college where we conducted numerous coding contests" 
+            ]
+        }
+    ],
+    "projects":[
+        {
+            "githuburl":"https://github.com/saiviswateja/amazon-shopping-basic",
+            "name":"E-Commerce Website",
+            "description":"A full-stack e-commerce web application where users can order products by registering in the site.",
+            "technologies":[
+                "ReactJS",
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB"
+            ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/blogproject",
+            "name":"BlogIN",
+            "description":"A full-stack web application where users can post an article or view articles posted by others. Users can like or dislike articles posted by others. Provided authentication and authorization for the website.",
+            "technologies":[
+                "ReactJS",
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB"
+            ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/mern-sell-it-buy-it-code",
+            "name":"SellIt Buyit",
+            "description":"A full-stack web application like OLX where users can sell things or buy things. Added a feature to show things based on location.",
+            "technologies":[
+                "ReactJS",
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB"
+            ] 
+        },
+        {
+            "githuburl":"",
+            "name":"Contact Form Application",
+            "description":"A desktop application using python tkinter package to collect details from users.",
+            "technologies":[
+                "Python",
+                "spreadsheets",
+                "Google APIs"
+            ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/portfolio",
+            "name":"Portfolio",
+            "description":"A portfolio website which provides professional journey of me",
+            "technologies":[
+                "ReactJS"
+            ] 
+        }
+    ]
+}
