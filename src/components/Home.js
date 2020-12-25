@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import profile_pic from './profile_pic.jpg';
+import Experience from './Experience';
 
 function Home() {
     return (
@@ -36,6 +37,7 @@ function Home() {
                         </div>
                         </div>
                     </div>
+                    <Experience/>
                     <div className="container education">
                         <div className="row">
                             <h2 className="headingcolor2 d-flex justify-content-center">Education</h2>
@@ -70,7 +72,6 @@ function Home() {
                             </div>
                         </div>
                     </div>
-
         </div>
     )
 }

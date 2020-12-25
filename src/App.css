@@ -47,7 +47,7 @@
 .edCard{
   margin-top: 3%;
   background-color: #172A45;
-  border: 1px solid #64FFDA;
+  /* border: 1px solid #64FFDA; */
   height: 33vh;
   display: flex;
   justify-content: space-around;
@@ -59,4 +59,39 @@
 }
 .edCard:last-child{
   padding-bottom: 3%;
+}
+.experienceLink{
+  color: #8892B0;
+  font-size: large;
+}
+
+.experienceLink:hover{
+  color: #64FFDA;
+  border-left: 1px solid #64FFDA;
+}
+
+.experienceCard{
+  background-color: #172A45;
+  /* background-color: rgb(10, 25, 47); */
+  margin-top: 3%;
+  height: max-content;
+  width: 80%;
+  display: flex;
+  border: none;
+}
+
+.experienceHeading{
+  font-weight: 500;
+  font-size: x-large;
+  padding: 2% 2% 1% 2%;
+}
+
+.bullet{
+  color: #64FFDA;
+  padding: 1%;
+}
+
+.experienceDate{
+  padding-left: 2%;
+  padding-bottom: 1%;
 }
