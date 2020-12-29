@@ -86,5 +86,67 @@
                 "ReactJS"
             ] 
         }
+    ],
+    "participations":[
+        {
+            "name":"Python Workshop",
+            "year":"2019",
+            "description":"Conducted a 2-day workshop on Advance Python in collaboration with FOSSEE, IIT Bombay"
+        },
+        {
+            "name":"Python Workshop",
+            "year":"2019",
+            "description":"Secured A+ grade for the completion of online self-workshop course on Basics of Programming using Python, conducted by FOSSEE, IIT Bombay"
+        },
+        {
+            "name":"C",
+            "year":"2019",
+            "description":"Secured Elite with Silver badge for Programming in C conducted by NPTEL in collaboration with IIT Kharagpur"
+        },
+        {
+            "name":"CodeVita",
+            "year":"2019",
+            "description":"Successfully cleared CodeVita season 8 Pre-Qualifier Round 1 conducted by Tata Consultancy Services"
+        },
+        {
+            "name":"Brain Wreck",
+            "year":"2019",
+            "description":"Organised Brain Wreck, an event for juniors in our college"
+        },
+        {
+            "name":"SIH",
+            "year":"2019",
+            "description":"Submitted a proposal in Smart India Hackathon 2019 for Ministry of RoadTransport which reducces the risk of road accidents"
+        },
+        {
+            "name":"CPL",
+            "year":"2019",
+            "description":"Actively participated in Coder Premier League, a hackathon conducted by Soliton Technologies in coimbatore"
+        },
+        {
+            "name":"CodeDojo",
+            "year":"2019",
+            "description":"Actively participated in CodeDojo, a hackathon conducted by EPAM Systems in Hyderabad"
+        },
+        {
+            "name":"Ethical Hacking",
+            "year":"2018",
+            "description":"Attended a 2-day workshop on Ethical Hacking at IIT Hyderabad"
+        },
+        {
+            "name":"MERN",
+            "year":"2020",
+            "description":"Completed an online MERN stack course in learn code online"
+        },
+        {
+            "name":"CPP",
+            "year":"2018",
+            "description":"Successfully completed the CPP training from Spoken Tutorials Platform, an intiative by IIT Bombay"
+        },
+        {
+            "name":"C",
+            "year":"2018",
+            "description":"Successfully completed the C training from Spoken Tutorials Platform, an intiative by IIT Bombay"
+        }
     ]
 }

@@ -8,33 +8,38 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import Navbar from './Navbar';
+import {useHistory} from 'react-router-dom';
 
 function Home() {
+    const history = useHistory();
     return (
         <div>
+                    <Navbar/>
                     <div className="row">
                     <div className="headingContainer">
-                        <h5 className="headingcolor1">Hi, my name is</h5>
+                        <h5 className="headingcolor1">Hi, I am</h5>
                         <h1 className="headingcolor2 headingSize1">Sai Viswa Teja</h1>
-                        <h1 className="headingcolor3 headingSize1">I build things for the web.</h1>
+                        <h1 className="headingcolor3">I'm not a great programmer,<br/>
+                        I'm  just a good programmer with good habits</h1>
                         <div className="row">
-                        <h5 className="headingcolor4 col-md-6">I am a Software Engineer working currently in esteemed
-                        organisation named ValueLabs. I am very passinate about computers</h5>
+                        {/* <h5 className="headingcolor4 col-md-6">I am a Software Engineer working currently in esteemed
+                        organisation named ValueLabs. I am very passinate about computers</h5> */}
                     </div>
                     <a href="mailto:saiviswateja.teja@gmail.com"><button className="getInTouch">Get In Touch</button></a>
                     </div>
                     </div>
-                    <div className="container">
+                    <div className="container aboutmecontainer">
                         <div className="row">
                         <div className="col-md-6 offset-md-1">
                             <h2 className="headingcolor2">About Me<hr></hr></h2>
-                            <h5 className="headingcolor4">Hello! I'm Brittany, a software engineer based in Boston, MA.
+                            <h5 className="headingcolor4">Hello! I'm Sai Viswa Teja Sreerama, a software engineer based in Hyderabad, India.
                             <br></br>
                             <br></br>
                             I enjoy creating things that live on the internet, whether  that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
                             <br></br>
                             <br></br>
-                            Shortly after graduating from Northeastern University, I joined the engineering team at Upstatement where I work on a wide variety of interesting and meaningful projects on a daily basis.</h5>
+                            Shortly after graduating from <span className="headingcolor1 desctag">G. Pulla Reddy College</span>, I joined the software team at <span className="headingcolor1 desctag">ValueLabs</span> where I work on a wide variety of interesting and meaningful projects on a daily basis.</h5>
                         </div>
                         <div className="col-md offset-ml-3 mt-5">
                             <div className="d-flex justify-content-center">
@@ -100,6 +105,8 @@ function Home() {
                             </div>
                         </div>
                     </div>
+                    <div className="d-lg-none hide_hr"><hr></hr></div>
+                    <div className="d-lg-none hide_hr"><hr></hr></div>
         </div>
     )
 }

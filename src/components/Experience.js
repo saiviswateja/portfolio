@@ -3,18 +3,15 @@ import DateRangeIcon from '@material-ui/icons/DateRange';
 import data from '../data.json';
 
 function Experience() {
-    const [selectExp,setSelectExp] = useState("vl");
     const [exp,setExp] = useState("vl");
     const [currentExp,setCurrentExp] = useState({"workingpoints":[]});
     useEffect(()=>{
         var experiences = data.experiences;
-        console.log(exp);
-        console.log("before "+experiences);
         var tempExperience = experiences.filter((experience)=>{
-            console.log(experience);
              if(experience._id===exp){
                  return true;
              }
+             return false;
          });
          setCurrentExp(tempExperience[0])
     },[exp])

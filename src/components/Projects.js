@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 import FolderOpenIcon from '@material-ui/icons/FolderOpen';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import data from '../data.json';
+import {useHistory} from 'react-router-dom';
 
 function Projects() {
     const [projects,setProjects] = useState([]);
+    const history = useHistory();
     useState(()=>{
         setProjects(data.projects);
     },[]);
@@ -13,7 +15,9 @@ function Projects() {
             <div className="projectContainer">
                     <div className="row">
                         <h2 className="headingcolor2 d-flex justify-content-center">Noteworthy Projects</h2>
-                        <h5 className="headingcolor1 d-flex justify-content-center archieveproject">view the archieve</h5>
+                        <h5 className="headingcolor1 d-flex justify-content-center archieveproject" onClick={()=>{
+                            history.push("/projects")
+                        }}>view the archive</h5>
                     </div>
                     <div className="projectsHolder">
                             {

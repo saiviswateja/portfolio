@@ -35,13 +35,25 @@
   margin-top: 2%;
 }
 
+.hide_hr{
+  color: rgb(10, 25, 47);
+}
+
 .headingContainer{
-  margin-top: 9%;
-  margin-bottom: 9%;
+  margin-top: 6%;
+  margin-bottom: 20%;
+}
+
+.aboutmecontainer{
+  margin-bottom: 12%;
+}
+
+.desctag{
+  font-weight: 500;
 }
 
 .education{
-  margin-top: 6%;
+  margin-top: 10%;
 }
 
 .edCard{
@@ -68,6 +80,7 @@
 .experienceLink:hover{
   color: #64FFDA;
   border-left: 1px solid #64FFDA;
+  cursor: pointer;
 }
 
 .experienceCard{
@@ -97,7 +110,8 @@
 }
 
 .projectContainer{
-  margin-top: 3%;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .projectsHolder{
@@ -111,11 +125,19 @@
 @media only screen and (max-width: 600px) {
   .projectsHolder{
     grid-template-columns: 1fr;
+    margin-bottom: 10%;
   }
 }
+
 @media only screen and (max-width: 600px) {
-  .footer_section{
-    margin-bottom: 10%;
+  .headingSize1{
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  .getInTouch{
+    margin-top: 5%;
+    width: 50%;
+    height: 15%;
   }
 }
 
@@ -123,6 +145,7 @@
 @media only screen and (max-width: 1000px) and (min-width: 600px) {
   .projectsHolder{
     grid-template-columns: 1fr 1fr;
+    margin-bottom: 10%;
   }
 }
 
@@ -213,4 +236,123 @@ a{
 
 .archieveproject{
   font-weight: 500;
+  margin-bottom: 2%;
+}
+
+.archieveproject:hover{
+    cursor: pointer;
+}
+
+
+
+.navcontainer{
+  margin-top: 2%;
+}
+
+.navtext{
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #CCD6F6;
+  font-size: large;
+}
+
+.navtext:hover{
+  color: #64FFDA;
+  cursor: pointer;
+}
+
+.certpage_archieve{
+  margin-top: 15%;
+  font-size: 600%;
+}
+
+.certpage_sideheading{
+  font-weight: 500;
+}
+
+.cert_projecttabheading{
+    font-weight: 600;
+    font-size: 200%;
+}
+
+.cert_project_table{
+    margin-top: 5%;
+    padding-left: 3%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .cert_projecttabheading{
+    font-weight: 600;
+    font-size: 100%;
+    margin-left: 0%;
+  }
+  .certpage_archieve{
+    margin-top: 15%;
+    font-size: 300%;
+    margin-left: 5%;  
+  }
+  .cert_project_table{
+    margin-top: 5%;
+    /* padding-left: 3%; */
+  }
+  .certpage_sideheading{
+    font-weight: 500;
+    margin-left: 3%;
+  }
+  .cert_projectname{
+    font-size: 80%
+  }
+}
+
+.cert_projectcol{
+  font-size: 125%;
+  color: #8892B0;
+  margin-top: 2%;
+}
+
+.cert_projectname{
+  color: #CCD6F6;
+  font-weight: 700;
+}
+
+/* .cert_project_table:last-child{
+  margin-bottom: 10%;
+} */
+
+.cert_projectcol:last-child{
+  margin-bottom: 10%;
+}
+
+.cert_projectdesc{
+  font-size: 70%;
+}
+
+.part_heading{
+    margin-top: 8%;
+}
+
+.part_tabheading{
+  font-weight: 600;
+  font-size: 180%;
+}
+
+.part_project_table{
+  margin-top: 4%;
+}
+
+.part_name{
+  font-weight: 600;
+}
+
+.part_row{
+  margin-top: 2%;
+}
+
+.part_row:last-child{
+  margin-bottom: 10%;
+}
+
+.part_hr{
+  margin-top: 2%;
 }

@@ -3,6 +3,10 @@ import React from 'react';
 function Technology() {
     return (
         <div>
+            <div className="d-lg-none hide_hr"><hr></hr></div>
+            <div className="d-lg-none hide_hr"><hr></hr></div>
+            <div className="d-lg-none hide_hr"><hr></hr></div>
+            <div className="d-lg-none hide_hr"><hr></hr></div>
             <div className="row technologyheader">
                 <h2 className="headingcolor2 d-flex justify-content-center">What I've Worked</h2>
                 <hr className="headingcolor2"></hr>
