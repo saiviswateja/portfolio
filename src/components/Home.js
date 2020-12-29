@@ -9,10 +9,8 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Navbar from './Navbar';
-import {useHistory} from 'react-router-dom';
 
 function Home() {
-    const history = useHistory();
     return (
         <div>
                     <Navbar/>
