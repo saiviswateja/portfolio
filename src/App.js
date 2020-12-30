@@ -6,7 +6,7 @@ import Participations from './components/Participations';
 
 function App() {
   return (
-    <Router basename="/portfolio">
+    <Router>
     <div className="container">
         <Switch>
           <Route path="/" exact>
