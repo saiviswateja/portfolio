@@ -9,22 +9,27 @@ import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Navbar from './Navbar';
+import Flip from 'react-reveal/Flip';
+import Fade from 'react-reveal/Fade';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+import LightSpeed from 'react-reveal/LightSpeed';
+import Shake from 'react-reveal/Shake';
+import Flash from 'react-reveal/Flash';
+
+
 
 function Home() {
     return (
         <div>
-                    <Navbar/>
+                    <LightSpeed left><Navbar/></LightSpeed>
                     <div className="row">
                     <div className="headingContainer">
                         <h5 className="headingcolor1">Hi, I am</h5>
-                        <h1 className="headingcolor2 headingSize1">Sai Viswa Teja</h1>
-                        <h1 className="headingcolor3">I'm not a great programmer,<br/>
-                        I'm  just a good programmer with good habits</h1>
-                        <div className="row">
-                        {/* <h5 className="headingcolor4 col-md-6">I am a Software Engineer working currently in esteemed
-                        organisation named ValueLabs. I am very passinate about computers</h5> */}
-                    </div>
-                    <a href="mailto:saiviswateja.teja@gmail.com"><button className="getInTouch">Get In Touch</button></a>
+                        <Zoom left><h1 className="headingcolor2 headingSize1">Sai Viswa Teja</h1></Zoom>
+                        <Zoom right><h1 className="headingcolor3">I'm not a great programmer,<br/>
+                        I'm  just a good programmer with good habits</h1></Zoom>
+                    <a href="mailto:saiviswateja.teja@gmail.com"><Shake><button className="getInTouch">Get In Touch</button></Shake></a>
                     </div>
                     </div>
                     <div className="container aboutmecontainer">
@@ -41,7 +46,7 @@ function Home() {
                         </div>
                         <div className="col-md offset-ml-3 mt-5">
                             <div className="d-flex justify-content-center">
-                            <img src={profile_pic} className="profile_pic" alt="Profile_Pic"></img>
+                            <Flash><img src={profile_pic} className="profile_pic" alt="Profile_Pic"></img></Flash>
                             </div>
                         </div>
                         </div>
@@ -87,19 +92,21 @@ function Home() {
                         <h2 className="headingcolor2 last_heading">Get In Touch</h2>
                         <center><div className="last_desc headingcolor3">Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!</div></center>
                     </div>
-                    <a href="mailto:saiviswateja.teja@gmail.com"><div className="d-flex justify-content-center"><button className="last_button">say Hello!</button></div></a>
+                    <a href="mailto:saiviswateja.teja@gmail.com"><div className="d-flex justify-content-center"><Shake><button className="last_button">say Hello!</button></Shake></div></a>
                     <div className="footer_section">
                         <div className="row">
                             <div className="col-md-8">
                             {/* <span className="headingcolor1 email .d-none .d-lg-block .d-xl-none">Email: </span><span className="headingcolor2 email">saiviswateja.teja@gmail.com</span> */}
                             </div>
                             <div className="col-md">
+                            <LightSpeed left>
                             <div className="d-flex justify-content-around headingcolor2">
                                 <a href="https://www.instagram.com/saiviswatejasreerama/?hl=en"><InstagramIcon fontSize="large" className="social_icon"></InstagramIcon></a>
                                 <a href="https://www.facebook.com/people/Sreerama-Saiviswateja/100006781996664"><FacebookIcon fontSize="large" className="social_icon"></FacebookIcon></a>
                                 <a href="https://github.com/saiviswateja"><GitHubIcon fontSize="large" className="social_icon"></GitHubIcon></a>
                                 <a href="https://www.linkedin.com/in/sreerama-saiviswateja-270569123"><LinkedInIcon fontSize="large" className="social_icon"></LinkedInIcon></a>
                             </div>
+                            </LightSpeed>
                             </div>
                         </div>
                     </div>
