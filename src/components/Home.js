@@ -46,7 +46,7 @@ function Home() {
                         </div>
                         <div className="col-md offset-ml-3 mt-5">
                             <div className="d-flex justify-content-center">
-                            <Flash><img src={profile_pic} className="profile_pic" alt="Profile_Pic"></img></Flash>
+                            <img src={profile_pic} className="profile_pic" alt="Profile_Pic"></img>
                             </div>
                         </div>
                         </div>
