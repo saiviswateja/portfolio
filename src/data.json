@@ -81,7 +81,7 @@
         {
             "githuburl":"https://github.com/saiviswateja/portfolio",
             "name":"Portfolio",
-            "description":"A portfolio website which provides professional journey of me",
+            "description":"A portfolio website which helps to show my professional journey and showcase my technical skills",
             "technologies":[
                 "ReactJS"
             ] 
