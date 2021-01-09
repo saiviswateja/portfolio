@@ -85,6 +85,15 @@
             "technologies":[
                 "ReactJS"
             ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/urlshortener",
+            "name":"URL Shortener",
+            "description":"Build an URL shortener application by following a online webinar",
+            "technologies":[
+                "NodeJS",
+                "ExpressJS"
+            ] 
         }
     ],
     "participations":[

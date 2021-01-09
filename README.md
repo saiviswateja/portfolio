@@ -7,7 +7,6 @@ Some of the packages I used in this project to enhance it
 -> react-router-dom
 -> react-reveal
 -> @material-ui for icons
-->
 
 ## Tech Stack
 
