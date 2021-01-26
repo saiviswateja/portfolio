@@ -94,6 +94,15 @@
                 "NodeJS",
                 "ExpressJS"
             ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/shoppinglist",
+            "name":"Shopping List",
+            "description":"Build an Shoping list application where users can add items along with thier prices. User can perform all CRUD operations in the application. For styling, I used Materialize css",
+            "technologies":[
+                "NodeJS",
+                "ExpressJS"
+            ] 
         }
     ],
     "participations":[
