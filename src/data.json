@@ -103,6 +103,16 @@
                 "NodeJS",
                 "ExpressJS"
             ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/nodejs-chat",
+            "name":"chat application",
+            "description":"Build a chat application by following a udemy course. Used socket.io for bi-directional data flow.",
+            "technologies":[
+                "NodeJS",
+                "ExpressJS",
+                "MongoDB"
+            ] 
         }
     ],
     "participations":[
@@ -165,6 +175,11 @@
             "name":"C",
             "year":"2018",
             "description":"Successfully completed the C training from Spoken Tutorials Platform, an intiative by IIT Bombay"
+        },
+        {
+            "name":"NodeJS course with express, socket io and MongoDB",
+            "year":"2021",
+            "description":"Successfully completed an udemy course on NodeJS and MongoDB. In the course, Socket IO had been used to provide real time communication"
         }
     ]
 }

@@ -8,7 +8,7 @@ function Projects() {
     const [projects,setProjects] = useState([]);
     const history = useHistory();
     useState(()=>{
-        setProjects(data.projects);
+        setProjects(data.projects.slice(0,6));
     },[]);
     return (
         <div>
