@@ -21,6 +21,7 @@ function Technology() {
                                     <li className="bullet"><span className="headingcolor2">Python</span></li> 
                                     <li className="bullet"><span className="headingcolor2">C</span></li> 
                                     <li className="bullet"><span className="headingcolor2">ReactJS</span></li> 
+                                    <li className="bullet"><span className="headingcolor2">PHP (CodeIgniter)</span></li>
                                     <li className="bullet"><span className="headingcolor2">MySQL</span></li>
                                 </ul>
                             </div>

@@ -113,6 +113,14 @@
                 "ExpressJS",
                 "MongoDB"
             ] 
+        },
+        {
+            "githuburl":"https://github.com/saiviswateja/miniblog",
+            "name":"Miniblog Application",
+            "description":"A blog application where users can view the articles posted by the admin.",
+            "technologies":[
+               "CodeIgniter"
+            ] 
         }
     ],
     "participations":[
