@@ -1,34 +1,26 @@
-# This script deploys your website automatically
-name: CI
-
-# Only trigger this script when you push to the master branch
+name: Node.js CI
 on:
   push:
-    branches: [ master ]
+    branches:
+      - master
 
 jobs:
-  lint:
+  build-test-deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set-up Node
+        uses: actions/setup-node@v1
         with:
-          node-version: '14'
-
-      - name: Install dependencies
-        run: npm ci --ignore-scripts
-
-      # run npm test, build, lint, etc.
-      
-      - name: Install required Packages
-        run: npm install
-        
-        
-       # Run our deployment command
-      - name: Deploying the static website to gh-pages
-        run: npm run deploy
+          node-version: "10.x"
+      - run: npm install
+      - run: npm run build
+      - run: npm test
+      - name: Deploy
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: build
         env:
-          CI: ""
-          GITHUB_TOKEN : ${{ secrets.REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
