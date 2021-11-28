@@ -25,6 +25,12 @@ jobs:
       - name: Install required Packages
         run: npm install
         
+      - name: Setting User
+        run:  git config --global user.name "saiviswateja"
+      
+      - name: Authenticating User
+        run: git config --global user.email "saiviswateja.teja@gmail.com"
+        
        # Run our deployment command
       - name: Deploying the static website to gh-pages
         run: npm run deploy
