@@ -37,6 +37,15 @@
     ],
     "projects":[
         {
+            "githuburl":"https://github.com/saiviswateja/farmstead",
+            "name":"Farmstead Application",
+            "description":"This project is the backend implementation of Farmstead project which provides RestFul Services for grabbing the products and placing orders.",
+            "technologies":[
+                "SpringBoot",
+                "MySQL"
+            ] 
+        },
+        {
             "githuburl":"https://github.com/saiviswateja/amazon-shopping-basic",
             "name":"E-Commerce Website",
             "description":"A full-stack e-commerce web application where users can order products by registering in the site.",
