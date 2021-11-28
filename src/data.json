@@ -39,7 +39,7 @@
     "projects":[
         {
             "githuburl":"https://github.com/saiviswateja/farmstead",
-            "name":"Farmstead",
+            "name":"Farmstead Application",
             "description":"This project is the backend implementation of Farmstead project which provides RestFul Services for grabbing the products and placing orders.",
             "technologies":[
                 "SpringBoot",
