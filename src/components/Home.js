@@ -36,17 +36,22 @@ function Home() {
                         <div className="row">
                         <div className="col-md-6 offset-md-1">
                             <h2 className="headingcolor2">About Me<hr></hr></h2>
-                            <h5 className="headingcolor4">Hello! I'm Sai Viswa Teja Sreerama, a software engineer based in Hyderabad, India.
+                            <h5 className="headingcolor4">Hello! I'm Sai Viswa Teja Sreerama, a Software Engineer based in Bengaluru, India.
                             <br></br>
                             <br></br>
-                            I enjoy creating things that live on the internet, whether  that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+                            I have Software Developer with nearly 5 years of hands-on experience in designing, building, and maintaining scalable backend systems. My core expertise lies in <span className="headingcolor1 desctag">Spring Boot</span> and Java-based backend development, with a strong understanding of modern software architecture and best practices.
                             <br></br>
                             <br></br>
-                            Shortly after graduating from <span className="headingcolor1 desctag">G. Pulla Reddy College</span>, I joined the software team at <span className="headingcolor1 desctag">ValueLabs</span> where I work on a wide variety of interesting and meaningful projects on a daily basis.</h5>
+                            I've also worked extensively with <span className="headingcolor1 desctag">Elastic Search</span>, leveraging it to build efficient and high-performance search capabilities in various applications. Passionate about writing clean, maintainable code and continuously learning new technologies to solve real-world problems.</h5>
                         </div>
                         <div className="col-md offset-ml-3 mt-5">
                             <div className="d-flex justify-content-center">
-                            <img src={profile_pic} className="profile_pic" alt="Profile_Pic"></img>
+                            <img
+                                src={profile_pic}
+                                className="profile_pic"
+                                alt="Profile_Pic"
+                                style={{ width: "400px", height: "400px" }}
+                                />
                             </div>
                         </div>
                         </div>

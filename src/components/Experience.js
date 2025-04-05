@@ -26,6 +26,7 @@ function Experience() {
                         </div>
                         <div className="container">
                             <div className="row">
+                            <div className="col experienceLink" onClick={()=>onExpClicked("manhattan")} id="manhattan" name="manhattan">Manhattan Associates</div>
                             <div className="col experienceLink" onClick={()=>onExpClicked("vl")} id="vl" name="vl">ValueLabs</div>
                             <div className="col experienceLink" onClick={()=>onExpClicked("vlintern")} id="vlintern" name="vlintern">ValueLabs Intern</div>
                             <div className="col experienceLink" onClick={()=>onExpClicked("tpcoord")} id="tpcoord" name="tpcoordinator">Training & Placement Coordinator</div>

@@ -18,10 +18,9 @@ function Technology() {
                             <div className="col">
                                 <ul className="list">
                                     <li className="bullet"><span className="headingcolor2">Java</span></li>    
-                                    <li className="bullet"><span className="headingcolor2">Python</span></li> 
-                                    <li className="bullet"><span className="headingcolor2">C</span></li> 
+                                    <li className="bullet"><span className="headingcolor2">Spring Boot</span></li> 
+                                    <li className="bullet"><span className="headingcolor2">Elastic Search</span></li> 
                                     <li className="bullet"><span className="headingcolor2">ReactJS</span></li> 
-                                    <li className="bullet"><span className="headingcolor2">PHP (CodeIgniter)</span></li>
                                     <li className="bullet"><span className="headingcolor2">MySQL</span></li>
                                 </ul>
                             </div>
@@ -31,7 +30,6 @@ function Technology() {
                                     <li className="bullet"><span className="headingcolor2">CSS</span></li> 
                                     <li className="bullet"><span className="headingcolor2">JavaScript</span></li> 
                                     <li className="bullet"><span className="headingcolor2">NodeJS</span></li>
-                                    <li className="bullet"><span className="headingcolor2">mongoDB</span></li>   
                                 </ul>
                             </div>
                         </div>

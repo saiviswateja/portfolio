@@ -1,6 +1,17 @@
 {
     "experiences":[
         {
+            "_id":"manhattan",
+            "role":"Senior Software Engineer",
+            "company":"@Manhattan Associates",
+            "duration":"August 2022 - Current",
+            "workingpoints":[
+                "Designed and implemented a scalable Elasticsearch-based Item Search functionality, optimized for high concurrency and enhanced search accuracy with advanced query strategies.",
+                "Designed and Developed a microservice to enable real-time tracking of customer orders, improving delivery transparency and customer satisfaction.",
+                "Migrated legacy components from Spring Boot 1 to Spring Boot 2 and updated codebase compatibility from Java 8 to Java 11, ensuring enhanced performance, security, and maintainability." 
+            ]
+        },
+        {
             "_id":"vlintern",
             "role":"Front-End Developer Intern",
             "company":"@Valuelabs",
