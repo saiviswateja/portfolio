@@ -211,5 +211,31 @@
             "year":"2021",
             "description":"Successfully completed an udemy course on NodeJS and MongoDB. In the course, Socket IO had been used to provide real time communication"
         }
+    ],
+    "publications":[
+        {
+            "name":"JProfiler Setup for Kubernetes Cluster",
+            "year":"2024",
+            "description":"Step by Step guide to setup Jprofiler for Kubernetes cluster",
+            "url": "https://medium.com/@saiviswateja.teja/monitoring-java-performance-on-kubernetes-connecting-jprofiler-to-your-pods-7997370a311f"
+        },
+        {
+            "name":"Elastic Search Multi Match",
+            "year":"2025",
+            "description":"Explanation of basic usage multi match query in Elastic search",
+            "url": "https://medium.com/@saiviswateja.teja/multi-match-understand-how-it-works-06ea49fc050a"
+        },
+        {
+            "name":"Pinpoint Setup 1",
+            "year":"2025",
+            "description":"Step by Step guide to setup Pinpoint",
+            "url": "https://medium.com/@saiviswateja.teja/pinpoint-setup-1-6cd43fafc286"
+        },
+        {
+            "name":"Pinpoint Setup 2",
+            "year":"2025",
+            "description":"Step by Step guide to setup Pinpoint",
+            "url": "https://medium.com/@saiviswateja.teja/pinpoint-setup-2-a86c9e3c339c"
+        }
     ]
 }

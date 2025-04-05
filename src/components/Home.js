@@ -3,6 +3,7 @@ import '../App.css';
 import profile_pic from './profile_pic.jpg';
 import Experience from './Experience';
 import Projects from './Projects';
+import Publications from './Publications';
 import Technology from './Technology';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
@@ -56,6 +57,7 @@ function Home() {
                         </div>
                         </div>
                     </div>
+                    <Publications/>
                     <Experience/>
                     <div className="container education">
                         <div className="row">
