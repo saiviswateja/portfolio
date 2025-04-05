@@ -14,7 +14,7 @@ function Publications() {
         <div>
             <div className="projectContainer">
                     <div className="row">
-                        <h2 className="headingcolor2 d-flex justify-content-center">Noteworthy Projects</h2>
+                        <h2 className="headingcolor2 d-flex justify-content-center">Read Worth Articles</h2>
                         <h5 className="headingcolor1 d-flex justify-content-center archieveproject" onClick={()=>{
                             history.push("/publications")
                         }}>view all articles</h5>
