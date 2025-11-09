@@ -1,6 +1,7 @@
 {
   "name": "sai-portfolio",
   "private": true,
+  "homepage": "https://saiviswateja.github.io/portfolio/",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
