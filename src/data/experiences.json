@@ -1,0 +1,51 @@
+[
+  {
+    "company": "Manhattan Associates",
+    "duration": "2022 – Present",
+    "roles": [
+      {
+        "title": "Senior Software Engineer",
+        "duration": "2024 – Present",
+        "bullets": [
+          "Implemented full-stack distributed tracing and observability using OpenTelemetry, enabling latency bottleneck identification, proactive error monitoring, and faster Root Cause Analysis across microservices.",
+          "Improved API performance by ~20% through deep profiling (JProfiler), optimizing database queries, refactoring hot code paths, and improving memory utilization.",
+          "Built a scalable Item Search engine using Elasticsearch, applying custom analyzers, relevance scoring, and optimized index mappings to support high-concurrency traffic and significantly improve search accuracy and response times."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "duration": "2022 – 2024",
+        "bullets": [
+          "Designed and developed a real-time order tracking microservice, improving delivery transparency and reducing support escalations.",
+          "Led migration from Spring Boot 1 → Spring Boot 2 and Java 8 → Java 11, enhancing performance, maintainability, and security across core services."
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ValueLabs",
+    "duration": "2019 – 2022",
+    "roles": [
+      {
+        "title": "Software Engineer",
+        "duration": "2020 – 2022",
+        "bullets": [
+          "Collaborated with a global development team to deliver and support vendor integrations on schedule.",
+          "Designed, developed, and maintained integrations for product feeds and order placement/tracking workflows.",
+          "Automated manual operational processes, reducing time spent on routine tasks and increasing the volume of orders successfully processed.",
+          "Served as the primary technical point of contact for vendors, assisting internal operations teams in understanding and working with vendor APIs."
+        ]
+      },
+      {
+        "title": "Software Intern",
+        "duration": "2019 – 2020",
+        "bullets": [
+          "Trained in React.js and iOS application development, focusing on component-based UI design and state management.",
+          "Developed and consumed RESTful APIs, integrating external data sources into frontend applications.",
+          "Built a movie search web application using the IMDb API, including search, result listing, and detail view functionality.",
+          "Gained hands-on exposure to workflow automation tools such as Microsoft Power Automate (Microsoft Flow)."
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeInUp {from {opacity:0; transform: translateY(6px);} to {opacity:1; transform: translateY(0);} }
+.animate-fade {animation: fadeInUp .45s ease both;}
+body {@apply bg-soft text-ink antialiased;}
+.container {@apply max-w-4xl mx-auto px-4 sm:px-6;}
+.card {@apply bg-white shadow-soft rounded-2xl p-4 sm:p-6 border border-slate-100;}
+.section-title {@apply text-lg sm:text-xl font-semibold mb-4;}
+.link {@apply text-blue-700 hover:underline;}
+

@@ -1,0 +1,5 @@
+{
+  "name": "Sai Viswa Teja Sreerama",
+  "role": "Software Engineer",
+  "description": "I'm a Software Engineer with around 5 years of experience building scalable, high-performance backend systems using Java, Spring Boot, and distributed architectures. I enjoy solving real-world performance challenges and designing systems that scale reliably under high load. I have hands-on experience designing search and data retrieval systems using Elasticsearch, including index modeling, relevance tuning, and optimizing queries for high concurrency and low latency. I've also led performance engineering efforts, improving API response times through deep profiling and JVM-level optimization (JProfiler, GC tuning, connection pooling, DB indexing). I care a lot about observability and reliability, which led me to implement OpenTelemetry-based distributed tracing, enabling clear visibility into latency hotspots and faster root-cause analysis across microservices. My work style is pragmatic, collaborative, and driven by impact. I enjoy diving into complex problems, simplifying systems, and continuously improving performance, resilience, and developer experience."
+}

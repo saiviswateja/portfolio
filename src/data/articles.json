@@ -1,0 +1,30 @@
+[
+  {
+    "title": "JProfiler Setup for Kubernetes Cluster",
+    "link": "https://medium.com/@saiviswateja.teja/monitoring-java-performance-on-kubernetes-connecting-jprofiler-to-your-pods-7997370a311f",
+    "summary": "Step-by-step guide to connecting JProfiler to Java applications running inside Kubernetes pods for performance debugging.",
+    "platform": "Medium",
+    "tags": ["JProfiler", "Kubernetes", "Performance"]
+  },
+  {
+    "title": "Elasticsearch Multi-Match Query Explained",
+    "link": "https://medium.com/@saiviswateja.teja/multi-match-understand-how-it-works-06ea49fc050a",
+    "summary": "Clear breakdown of how the multi-match query works in Elasticsearch, including query types and relevance scoring.",
+    "platform": "Medium",
+    "tags": ["Elasticsearch", "Search", "Relevance"]
+  },
+  {
+    "title": "Pinpoint Setup (Part 1)",
+    "link": "https://medium.com/@saiviswateja.teja/pinpoint-setup-1-6cd43fafc286",
+    "summary": "A walkthrough of setting up Pinpoint APM for distributed tracing across microservices.",
+    "platform": "Medium",
+    "tags": ["Pinpoint", "Tracing", "Spring Boot"]
+  },
+  {
+    "title": "Pinpoint Setup (Part 2)",
+    "link": "https://medium.com/@saiviswateja.teja/pinpoint-setup-2-a86c9e3c339c",
+    "summary": "Continuation of Pinpoint setup focusing on instrumentation and metrics collection.",
+    "platform": "Medium",
+    "tags": ["Pinpoint", "APM", "Observability"]
+  }
+]
